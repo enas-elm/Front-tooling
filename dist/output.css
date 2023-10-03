@@ -1,0 +1,5 @@
+content: ["./src/**/*.{html,js}"],
+
+.test {
+  color: red;
+}
