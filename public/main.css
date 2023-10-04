@@ -540,6 +540,11 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+html{
+  --tw-bg-opacity: 1;
+  background-color: rgb(227 250 216 / var(--tw-bg-opacity));
+}
+
 h1{
   text-align: center;
   font-size: 40px;
@@ -547,82 +552,44 @@ h1{
   color: rgb(2 123 128 / var(--tw-text-opacity));
 }
 
-h2{
-  width: 100%;
-  text-align: center;
-  --tw-text-opacity: 1;
-  color: rgb(175 77 77 / var(--tw-text-opacity));
+.mt-8{
+  margin-top: 2rem;
 }
 
-.all{
-  gap: 5rem;
-  row-gap: 1.25rem;
-  -moz-column-gap: 1.25rem;
-       column-gap: 1.25rem;
+.bg-tertiaryLight{
   --tw-bg-opacity: 1;
   background-color: rgb(227 250 216 / var(--tw-bg-opacity));
-  padding: 5%;
 }
 
-.gen{
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0px;
-  margin-top: 60px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.25rem;
+.p-8{
+  padding: 2rem;
 }
 
-/* In each div for each pokemon*/
-
-.pokedivId{
-  width: 150px;
-  border-width: 5px;
-  border-color: solid;
-  --tw-border-opacity: 1;
-  border-color: rgb(2 123 128 / var(--tw-border-opacity));
-  --tw-bg-opacity: 1;
-  background-color: rgb(235 198 198 / var(--tw-bg-opacity));
-  padding: 15px;
+.text-center{
   text-align: center;
 }
 
-.pokedivId p{
-  text-align: center;
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
 }
 
-#namePid{
-  margin-bottom: 0.625rem;
-  text-transform: uppercase;
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.font-semibold{
+  font-weight: 600;
+}
+
+.text-primary{
   --tw-text-opacity: 1;
-  color: rgb(175 77 77 / var(--tw-text-opacity));
+  color: rgb(2 123 128 / var(--tw-text-opacity));
 }
 
-.bothTypeSection{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-}
-
-.type1,
-  .type2{
-  border-radius: 10px;
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 255 242 / var(--tw-bg-opacity));
-  padding: 5px;
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-* {
+*{
   margin: 0;
   padding: 0;
-  font-family: "Press Start 2P", cursive;
   text-align: justify;
 }

@@ -4,43 +4,12 @@
 
 @layer components {
 
+  html {
+    @apply bg-tertiaryLight;
+  }
   h1{
     @apply text-[40px] text-center text-primary;
   }
 
-  h2 {
-    @apply text-secondary w-full text-center;
-  }
-
-  .all {
-    @apply gap-20 gap-y-5 gap-x-5 bg-tertiaryLight p-[5%];
-  }
-  
-
-  .gen {
-    @apply flex gap-5 flex-wrap justify-center mt-[60px] mx-auto my-0;
-  }
-  
-  /* In each div for each pokemon*/
-  .pokedivId {
-    @apply text-center w-[150px] bg-secondaryLight p-[15px] border-[solid] border-[5px] border-primary;
-  }
-  .pokedivId p {
-    @apply text-center;
-  }
-  .darkpokediv {
-    @apply bg-[#949090];
-  }
-  #namePid {
-    @apply text-secondary uppercase mb-2.5;
-  }
-  .bothTypeSection {
-    @apply flex justify-center gap-2 mx-auto my-0;
-  }
-  .type1,
-  .type2 {
-    @apply text-xs bg-[#fefff2] p-[5px] rounded-[10px];
-  }
-  
 }
 
