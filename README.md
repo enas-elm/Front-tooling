@@ -29,7 +29,7 @@ Run `npx prettier . --write to`
 
 [Jest](<https://www.google.com](https://jestjs.io/docs/getting-started)https://jestjs.io/docs/getting-started>)
 
-Configure test in **'sum.js'** and **'sum.test.js'**
+Configure tests in **'sum.js'** and **'sum.test.js'**
 
 Run `npm run test` to launch test
 
@@ -38,3 +38,12 @@ Run `npm run test` to launch test
 [Husky](https://typicode.github.io/husky/getting-started.html)
 
 Right before your commit, husky wil launch your test to check if youre ode is ready to be pushed
+
+
+## Complier
+
+[Babel](https://babeljs.io/setup#installation)
+
+Configure babel in **'babel.config.json'**
+
+Run `npm run build` for compile the files with babel
