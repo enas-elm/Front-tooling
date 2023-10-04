@@ -1,9 +1,8 @@
-Tailwind.css
-Run "npm run tailwind:watch" to run tailwind in the project
-the variable are configured in the tailwind.config.js, you can change bthe values
+## Server
 
-Prettier
-Run "run npx prettier . --write to"
+[Vite](https://vitejs.dev/guide/)
+
+Run the project on local `npm run lint`
 
 ## Lint
 
@@ -38,7 +37,6 @@ Run `npm run test` to launch test
 [Husky](https://typicode.github.io/husky/getting-started.html)
 
 Right before your commit, husky wil launch your test to check if youre ode is ready to be pushed
-
 
 ## Complier
 
