@@ -540,52 +540,92 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-html{
-  --tw-bg-opacity: 1;
-  background-color: rgb(227 250 216 / var(--tw-bg-opacity));
-}
-
 h1{
   text-align: center;
-  font-size: 40px;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 600;
   --tw-text-opacity: 1;
   color: rgb(2 123 128 / var(--tw-text-opacity));
 }
 
-.mt-8{
-  margin-top: 2rem;
+h2{
+  width: 100%;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(175 77 77 / var(--tw-text-opacity));
 }
 
-.bg-tertiaryLight{
+.all{
+  gap: 5rem;
+  row-gap: 1.25rem;
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
   --tw-bg-opacity: 1;
   background-color: rgb(227 250 216 / var(--tw-bg-opacity));
+  padding: 5%;
 }
 
-.p-8{
-  padding: 2rem;
+.gen{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem;
 }
 
-.text-center{
+/* In each div for each pokemon*/
+
+.pokedivId{
+  width: 150px;
+  border-width: 5px;
+  border-color: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(2 123 128 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(235 198 198 / var(--tw-bg-opacity));
+  padding: 15px;
   text-align: center;
 }
 
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
+.pokedivId p{
+  text-align: center;
 }
 
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.font-semibold{
-  font-weight: 600;
-}
-
-.text-primary{
+#namePid{
+  margin-bottom: 0.625rem;
+  text-transform: uppercase;
   --tw-text-opacity: 1;
-  color: rgb(2 123 128 / var(--tw-text-opacity));
+  color: rgb(175 77 77 / var(--tw-text-opacity));
+}
+
+.bothTypeSection{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.type1,
+  .type2{
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 255 242 / var(--tw-bg-opacity));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 *{
