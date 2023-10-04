@@ -5,15 +5,15 @@
 @layer components {
 
   h1{
-    @apply text-[40px] text-center text-[#027b80];
+    @apply text-[40px] text-center text-primary;
   }
 
   h2 {
-    @apply text-[#af4d4d] w-full text-center;
+    @apply text-secondary w-full text-center;
   }
 
   .all {
-    @apply gap-20 gap-y-5 gap-x-5 bg-[#e3fad8] p-[5%];
+    @apply gap-20 gap-y-5 gap-x-5 bg-tertiaryLight p-[5%];
   }
   
 
@@ -23,7 +23,7 @@
   
   /* In each div for each pokemon*/
   .pokedivId {
-    @apply text-center w-[150px] bg-[#fccccc] p-[15px] border-[solid] border-[5px] border-[#027b80];
+    @apply text-center w-[150px] bg-secondaryLight p-[15px] border-[solid] border-[5px] border-primary;
   }
   .pokedivId p {
     @apply text-center;
@@ -32,7 +32,7 @@
     @apply bg-[#949090];
   }
   #namePid {
-    @apply text-[#af4d4d] uppercase mb-2.5;
+    @apply text-secondary uppercase mb-2.5;
   }
   .bothTypeSection {
     @apply flex justify-center gap-2 mx-auto my-0;
