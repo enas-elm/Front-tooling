@@ -1,13 +1,12 @@
-// API
 
 let gen1 = document.querySelector('#gen1') //select div on html
 let gen2 = document.querySelector('#gen2')
 let all = document.querySelector('.all')
 
 
+// API
 
 for (let i = 1; i < 40; i++) {
-
 
     //CREATION OF ELEMENTS AND DEFINE
     let pokediv = document.createElement('div')
@@ -53,15 +52,7 @@ for (let i = 1; i < 40; i++) {
 
             var typepk = response.types[0].type.name
 
-            if (typepk === 'water') { // if water type creates an element p with "water" for id"
-                let water = document.createElement('p')
-                water.setAttribute("id", "water")
-
-                var texttype = document.createTextNode(typepk);
-                water.appendChild(texttype)
-                pokediv.appendChild(water)
-            }
-            else {
+    
                 let type1P = document.createElement('p')
                 type1P.setAttribute("class", "type1")
 
@@ -69,7 +60,7 @@ for (let i = 1; i < 40; i++) {
                 type1P.appendChild(texttype)
 
                 bothTypeSection.appendChild(type1P)
-            }
+            
         })
 
     // TYPE 2

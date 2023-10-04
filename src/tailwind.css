@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  h1{
+    @apply text-[40px] text-center text-[#027b80];
+  }
+
+  h2 {
+    @apply text-[#af4d4d] w-full text-center;
+  }
+
+  .all {
+    @apply gap-20 gap-y-5 gap-x-5 bg-[#e3fad8] p-[5%];
+  }
+  
+
+  .gen {
+    @apply flex gap-5 flex-wrap justify-center mt-[60px] mx-auto my-0;
+  }
+  
+  /* In each div for each pokemon*/
+  .pokedivId {
+    @apply text-center w-[150px] bg-[#fccccc] p-[15px] border-[solid] border-[5px] border-[#027b80];
+  }
+  .pokedivId p {
+    @apply text-center;
+  }
+  .darkpokediv {
+    @apply bg-[#949090];
+  }
+  #namePid {
+    @apply text-[#af4d4d] uppercase mb-2.5;
+  }
+  .bothTypeSection {
+    @apply flex justify-center gap-2 mx-auto my-0;
+  }
+  .type1,
+  .type2 {
+    @apply text-xs bg-[#fefff2] p-[5px] rounded-[10px];
+  }
+  
+}
+
