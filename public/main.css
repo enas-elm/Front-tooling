@@ -556,11 +556,6 @@ h1{
   margin-top: 2rem;
 }
 
-.bg-tertiaryLight{
-  --tw-bg-opacity: 1;
-  background-color: rgb(227 250 216 / var(--tw-bg-opacity));
-}
-
 .p-8{
   padding: 2rem;
 }
@@ -588,7 +583,7 @@ h1{
   color: rgb(2 123 128 / var(--tw-text-opacity));
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   text-align: justify;

@@ -3,13 +3,10 @@
 @tailwind utilities;
 
 @layer components {
-
   html {
     @apply bg-tertiaryLight;
   }
-  h1{
+  h1 {
     @apply text-[40px] text-center text-primary;
   }
-
 }
-
